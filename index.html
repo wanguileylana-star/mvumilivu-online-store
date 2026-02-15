@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mvumilivu Online Store</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1{
+            text-align: center;
+            color: darkblue;
+        }
+
+        p{
+            text-align: center;
+            font-size: 18px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        th, td{
+            border: 3px solid black;   /* Bold Borders */
+            padding: 15px;
+            text-align: center;
+        }
+
+        th{
+            background-color: #f2f2f2;
+            font-size: 20px;
+        }
+
+        img{
+            width: 80px;
+            height: 80px;
+        }
+
+        .total{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        iframe{
+            margin-top: 40px;
+            width: 100%;
+            height: 400px;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to Mvumilivu Online Store</h1>
+
+    <p>
+        Mvumilivu Online Store sells a variety of quality products including 
+        electronics and furniture at affordable prices.
+    </p>
+
+    <table>
+        <tr>
+            <th>Product Image</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Quantity</th>
+            <th>Price (Ksh)</th>
+        </tr>
+
+        <tr>
+            <td><img src="laptop.jpg" alt="Laptop"></td>
+            <td>Laptop Pro</td>
+            <td rowspan="2">Electronics</td>
+            <td>10</td>
+            <td>75,000</td>
+        </tr>
+
+        <tr>
+            <td><img src="phone.jpg" alt="Phone"></td>
+            <td>Smart X</td>
+            <td>15</td>
+            <td>45,000</td>
+        </tr>
+
+        <tr>
+            <td><img src="chair.jpg" alt="Chair"></td>
+            <td>Office Chair</td>
+            <td rowspan="2">Furniture</td>
+            <td>5</td>
+            <td>12,000</td>
+        </tr>
+
+        <tr>
+            <td><img src="table.jpg" alt="Table"></td>
+            <td>Dining Table</td>
+            <td>3</td>
+            <td>30,000</td>
+        </tr>
+
+        <tr class="total">
+            <td colspan="3">TOTAL PRODUCTS</td>
+            <td>33</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2>Our Location</h2>
+
+    <!-- Google Map Embed -->
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.123456789!2d36.8219!3d-1.2921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d0d0d0d0d0%3A0x1234567890abcdef!2sNairobi!5e0!3m2!1sen!2ske!4v1234567890">
+    </iframe>
+
+</body>
+</html>
